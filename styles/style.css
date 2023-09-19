@@ -56,10 +56,10 @@ a{
 
 .typing-text-container{
   font-weight: 800;
-  height: 50vh;
+  height: 35vh;
   width: 98vw;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   position: relative;
   font-size: 80px;
@@ -68,9 +68,9 @@ a{
 #first-typing-text{
   white-space: nowrap;
   position: absolute;
-  left: 50%;
+  left: 14%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate();
 }
 
 
@@ -94,15 +94,23 @@ a{
     left: 100%;
   }
 
-  60%{
+  70%{
     left: 100%;
   }
 
   100%{
     left: 0%;
   }
+}
 
+@keyframes blink{
+   0%{
+    opacity: 0;
+  }
 
+   100%{
+    opacity: 1;
+  }
 }
 
 
