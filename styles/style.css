@@ -121,13 +121,31 @@ a{
 .what-we-do-container{
   height: 70vh;
   flex-direction: column;
-  padding: 3.5% 14%;
+  padding: 3.5% 14% 2.3% 14%;
   background-color: rgb(157, 158, 158);
   align-items: center;
 }
 
-.what-we-do-container h1{
+.what-we-do-heading{
+  font-size: 210%;
+  margin: 0;
+}
+
+.what-we-do-heading h1{
+  margin: 0 0 2% 0;
+}
+
+.what-we-do h1{
+  font-size: 1.7em;
   margin: 0 0 3% 0;
+  font-weight: 800;
+  line-height: 120%;
+  margin-top: 5%;
+}
+
+.what-we-do p{
+  margin-top: 14%;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .what-we-do-heading span{
@@ -142,16 +160,26 @@ a{
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
+  
 }
 
 .what-we-do{
   background-color: #E9EFEF;
+  padding: 10%;
+  border-top: 3.5px solid #28baba;
+  display: grid;
+  grid-column: auto;
+  grid-row: 100px 200px 200px;
+  
 }
 
 .page-svg{
   stroke: #28baba;
-  width: 55px;
+  width: 50px;
+  padding: 5%;
+  animation: skew 3s ease-out infinite;
 }
+
 
 #page-flap{
   fill: #28baba;
@@ -188,6 +216,17 @@ a{
   animation: linefill5 3s ease-out infinite;
 }
 
+.laptop-svg{
+  width: 100px;
+  height: 90px;
+  grid-area: 1 / 1 / 1 / 1;
+}
+
+.stock-laptop-line{
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  animation: stockline 3s linear infinite;
+}
 
 
 
