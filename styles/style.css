@@ -258,6 +258,71 @@ a{
   padding: 4% 0%;
 }
 
+.home-page-about-us{
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 42vw 42vw;
+}
+
+.home-page-about-us h1{
+  font-size: 4.5em;
+  font-weight: 800;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+.home-page-about-us span{
+  color: #28baba;
+}
+
+.home-page-about-us p{
+  color: rgb(222, 219, 219);
+  margin: 4% 0;
+  font-size: 1em;
+  line-height: 1.8em;
+}
+
+.home-page-about-us button{
+  font-size: 1.2em;
+  padding: 2.7% 7%;
+  background-color: #28baba;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  margin-top: 2%;
+  transition: 1s all ease;
+  cursor: pointer;
+}
+
+
+.home-page-about-us button::after{
+  content: "➔";
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.home-page-about-us button:hover{
+  background-color: #226d6d;
+}
+
+/* .about-us-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10% 5%;
+  justify-content: start;
+} */
+
 
 
 
