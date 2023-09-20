@@ -228,8 +228,29 @@ a{
   animation: stockline 3s linear infinite;
 }
 
+.bar-graph{
+  width: 65px;
+  height: 65px;
+  grid-area: 1 /1 /1 /1;
+  padding: 5%;
+}
+
 #bar-1{
-  
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 90%;
+  animation: bargraph 4s linear infinite;
+}
+
+#bar-2{
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 80%;
+  animation: bargraph2 4s linear infinite;
+}
+
+#bar-3{
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 70%;
+  animation: bargraph3 4s linear infinite;
 }
 
 
