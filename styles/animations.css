@@ -168,3 +168,26 @@
     stroke-dashoffset: 70%;
   }
 }
+
+@keyframes headsvg{
+  10% {
+    transform: rotateX(0deg);
+  }
+
+
+  30% {
+    transform: rotateX(30deg);
+  }
+
+  50% {
+    transform: rotateY(30deg);
+  }
+
+  60%{
+    transform: rotate(90deg);
+  }
+
+  70%{
+    transform: rotateY(360deg);
+  }
+}

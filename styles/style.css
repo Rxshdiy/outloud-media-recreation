@@ -122,7 +122,6 @@ a{
   height: 70vh;
   flex-direction: column;
   padding: 3.5% 14% 2.3% 14%;
-  background-color: rgb(157, 158, 158);
   align-items: center;
 }
 
@@ -153,7 +152,6 @@ a{
 }
 
 .what-we-do-grid-container{
-  background-color: black;
   width: 100%;
   height: 70%;
   display: grid;
@@ -164,12 +162,12 @@ a{
 }
 
 .what-we-do{
-  background-color: #E9EFEF;
   padding: 10%;
   border-top: 3.5px solid #28baba;
   display: grid;
   grid-column: auto;
   grid-row: 100px 200px 200px;
+  box-shadow: 10px 10px 100px rgb(0, 0, 0, 0.07);
   
 }
 
@@ -254,9 +252,12 @@ a{
 }
 
 .profile-svg{
-  width: 100px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
+  animation: headsvg 5s linear infinite;
+  padding: 4% 0%;
 }
+
 
 
 
