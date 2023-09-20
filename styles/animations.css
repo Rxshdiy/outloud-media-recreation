@@ -1,0 +1,72 @@
+@keyframes typing{
+
+  0%{
+    left: 0%;
+  }
+
+  40%{
+    left: 100%;
+  }
+
+  70%{
+    left: 100%;
+  }
+
+  100%{
+    left: 0%;
+  }
+}
+@keyframes linefill1{
+  20%{
+    stroke-dashoffset: 0%;
+  }
+
+  80%{
+    stroke-dashoffset: 0%;
+  }
+
+  100%{
+    stroke-dashoffset: 100%;
+  }
+}
+
+@keyframes linefill2{
+  20%{
+    stroke-dashoffset: 0%;
+  }
+
+  70%{
+    stroke-dashoffset: 0%;
+  }
+}
+
+@keyframes linefill3{
+  20%{
+    stroke-dashoffset: 0%;
+  }
+
+  60%{
+    stroke-dashoffset: 0%;
+  }
+}
+
+@keyframes linefill4{
+  20%{
+    stroke-dashoffset: 0%;
+  }
+
+  50%{
+    stroke-dashoffset: 0%;
+  }
+}
+
+@keyframes linefill5{
+  20%{
+    stroke-dashoffset: 0%;
+  }
+
+  30%{
+    stroke-dashoffset: 0%;
+  }
+
+}

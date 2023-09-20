@@ -2,7 +2,8 @@ body{
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
+  height: 500vh;
 }
 
 a{
@@ -31,6 +32,7 @@ a{
   width: 40%;
   cursor: pointer;
 }
+
 
 
 
@@ -69,7 +71,7 @@ a{
   position: absolute;
   left: 14%;
   top: 50%;
-  transform: translate();
+  
 }
 
 
@@ -80,26 +82,16 @@ a{
   background-color: #E9EFEF;
   position: absolute;
   border-left: 20px solid black;
-  animation: typing 4s steps(25) infinite;
+  animation: typing 4s steps(20) infinite;
 } 
 
-@keyframes typing{
 
-  0%{
-    left: 0%;
-  }
 
-  40%{
-    left: 100%;
-  }
-
-  70%{
-    left: 100%;
-  }
-
-  100%{
-    left: 0%;
-  }
+.typing-div{
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
 }
 
 .background-first-overlay{
@@ -125,4 +117,78 @@ a{
   margin: 0;
   padding: 0;
 }
+
+.what-we-do-container{
+  height: 70vh;
+  flex-direction: column;
+  padding: 3.5% 14%;
+  background-color: rgb(157, 158, 158);
+  align-items: center;
+}
+
+.what-we-do-container h1{
+  margin: 0 0 3% 0;
+}
+
+.what-we-do-heading span{
+  color: #28baba;
+}
+
+.what-we-do-grid-container{
+  background-color: black;
+  width: 100%;
+  height: 70%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.what-we-do{
+  background-color: #E9EFEF;
+}
+
+.page-svg{
+  stroke: #28baba;
+  width: 55px;
+}
+
+#page-flap{
+  fill: #28baba;
+  stroke: none !important;
+}
+
+#in-line1{
+  stroke-dashoffset: 100%;
+  stroke-dasharray: 100%;
+  animation: linefill1 3s ease-out infinite;
+}
+
+#in-line2{
+  stroke-dashoffset: 100%;
+  stroke-dasharray: 100%;
+  animation: linefill2 3s ease-out infinite;
+}
+
+#in-line3{
+  stroke-dashoffset: 100%;
+  stroke-dasharray: 100%;
+  animation: linefill3 3s ease-out infinite;
+}
+
+#in-line4{
+  stroke-dashoffset: 100%;
+  stroke-dasharray: 100%;
+  animation: linefill4 3s ease-out infinite;
+}
+
+#in-line5{
+  stroke-dashoffset: 100%;
+  stroke-dasharray: 100%;
+  animation: linefill5 3s ease-out infinite;
+}
+
+
+
+
 
