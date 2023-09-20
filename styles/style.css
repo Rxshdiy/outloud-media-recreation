@@ -253,6 +253,11 @@ a{
   animation: bargraph3 4s linear infinite;
 }
 
+.profile-svg{
+  width: 100px;
+  height: 80px;
+}
+
 
 
 
