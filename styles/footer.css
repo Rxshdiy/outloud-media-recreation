@@ -1,0 +1,153 @@
+.footer img{
+  width: 40px;
+  height: 40px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 100px;
+  height: 68vh;
+  box-sizing: border-box;
+  color: white;
+  background-color: #1f1f1f;
+  padding: 2% 3% 0% 3%
+}
+
+.contact-us{
+  grid-area: 1 / 1 / 1 / 1;
+  font-size: 1.3em;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  position: relative;
+}
+
+.button-footer-container{
+  grid-area: 1 / 2 / 1 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-footer-container button{
+  font-size: 1.2em;
+  padding: 2.7% 7%;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-weight: 600;
+  position: relative;
+  margin-top: 2%;
+  transition: 1s all ease;
+  cursor: pointer;
+  border-style: none;
+  border: 2px solid #28baba;
+}
+
+
+.button-footer-container button::after{
+  content: "➔";
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.button-footer-container button:hover{
+  background-color: #28baba;
+  border: black;
+}
+
+
+.our-location{
+  grid-area: 1 / 3 / 1 / 3;
+  font-weight: normal;
+}
+
+.footer-copyright{
+  grid-area: 2 / 1 / 2 / -1;
+}
+
+.contact-us h3{
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.contact-us{
+  position: relative;
+  padding: 18%;
+
+}
+
+.footer-email{
+  color: #28baba;
+  font-weight: 700;
+  padding-bottom: 15%;
+  padding-top: 3%;
+}
+
+.contact-us-inside-div{
+  padding-left: 20%;
+}
+
+
+.our-location{
+  display: flex;
+  padding: 20% 30% 25% 20%;
+  text-align: end;
+}
+
+.our-location-div{
+}
+
+.our-location p{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+
+.our-location-div h3{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  margin-top: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: 1s all ease;
+}
+
+.our-location-div h3::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.our-location-div h3:hover{
+  color:#ff0066;
+}
+
+.footer-copyright{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a9a9a9;
+  line-height: 1.5em;
+  font-family: "Roboto Slab";
+}
+
+.footer-copyright p{
+  width: 75%;
+  border-top: 1px solid #3a3a3a;
+  text-align: center;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
