@@ -36,3 +36,141 @@
   left: 0;
   background-color: #28baba;
 }
+
+.what-we-believe-in img{
+  height: 570px;
+  padding: 5%;
+}
+
+.what-we-believe-image{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.what-we-believe-in{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  padding: 3% 12% 5% 12%;
+  gap: 40px;
+}
+
+.text-content-believe h1{
+  font-size: 3.7em;
+  line-height: 1.2em;
+  font-weight: 800;
+  margin-bottom: 6%;
+}
+
+.text-content-believe span{
+  color: #28baba;
+}
+
+.text-content-believe h3{
+  font-weight: normal;
+  font-family: "Roboto Slab", sans-serif;
+  color: rgb(67, 67, 67);
+  margin-bottom: 6%;
+  line-height: 1.8em;
+  font-size: 1em;
+}
+
+.everything-we-believe-in p{
+  color: rgb(67, 67, 67);
+  line-height: 1.3em;
+  font-size: 16px;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  position: relative;
+}
+
+.everything-we-believe-in p::before{
+  content: "\f192";
+  font-family: 'Font Awesome 6 Free';
+  font-size: 15px;
+  color: #28baba;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  left: -30px;
+  top: 10px;
+}
+
+.fair-terms::before{
+  top: 0 !important;
+}
+
+.believe-in-button{
+  font-size: 1.2em;
+  padding: 4% 10%;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  margin-top: 6%;
+  transition: 1s all ease;
+  cursor: pointer;
+  border-style: none;
+
+}
+
+.believe-in-button::after{
+  content: "➔";
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.believe-in-button:hover{
+  background-color: #226d6d;
+}
+
+
+.statistics-container{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  row-gap: 12%;
+}
+
+.statistics-container h1{
+  font-size: 4em;
+}
+
+.statistics-container span{
+  color: #28baba;
+}
+
+
+.statistics-numbers{
+  display: flex;
+  flex-direction: row;
+  row-gap: 100px;
+  justify-content: space-between;
+  width: 80vw;
+  align-items: center;
+}
+
+.statistics{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics h2{
+  font-size: 3.5em;
+}
+
+.statistics h3{
+  color: #28baba;
+}
