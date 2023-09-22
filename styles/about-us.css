@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page-description-top{
+  height: 42vh;
+  background-image: url(../images/background-images/about1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.5;
+}
+
+.background-overlay-about-us{
+  height: 42vh;
+  background-color: black;
+}
+
+.about-us-heading{
+  z-index: 3;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  color: white;
+  font-size: 3.2em;
+}
+
+.about-us-heading::after{
+  content: "";
+  height: 2px;
+  width: 50%;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background-color: #28baba;
+}
