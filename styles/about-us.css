@@ -174,3 +174,39 @@
 .statistics h3{
   color: #28baba;
 }
+
+.get-quote-container{
+  background-color: white;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-quote-container button{
+  font-size: 1.2em;
+  padding: 30px 70px;
+  background-color: #28baba;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  transition: 1s all ease;
+  cursor: pointer;
+  border-style: none;
+
+}
+
+.get-quote-container button::after{
+  content: "➔";
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.get-a-quote:hover{
+  background-color: #226d6d;
+}
