@@ -1,0 +1,257 @@
+/* make the index.html responsive to a device with a max wwidth of 1200px */
+
+.nav-phone {
+  display: none;
+}
+
+.nav-links-phone {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 15vh;
+    padding: 0% 10%;
+    background-color: #f2f2f2;
+  }
+
+  .footer-email{
+    padding-bottom: 5%;
+  }
+
+  .nav-phone img{
+    height: 60%;
+    margin-left: 5%;
+  }
+
+  .bar{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+  }
+  .nav-links {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+
+  }
+   
+  .nav-bar {
+    display: none;
+  }
+
+ .fa-bars{
+    height: 100px;
+    width: 100px;
+  }
+
+  .nav-links-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    position: absolute;
+    z-index: 2;
+  }
+  
+
+  /* nav links a tags padding of 5% with a background color of white and a 0.5px light grey top border */
+  .nav-links-phone a {
+    padding: 5.1%;
+    background-color: white;
+    border-top: 0.5px solid #d9d9d9;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links-phone a:hover {
+    color: #28baba;
+  }
+
+  .nav-links-phone{
+    display: none
+  }
+
+  .nav-links-button-clicked{
+    display: flex !important;
+  }
+
+  #first-typing-text {
+    font-size: 0.34em;
+    left: 1%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .typing-text-container{
+    height: 70vh;
+    position: absolute;
+  }
+
+  #first-typing-text::before{
+    border-left: 10px solid black;
+  }
+
+  .scroll-down{
+    top: 70%;
+  }
+
+  .what-we-do-heading{
+      font-size: 1.2em;
+      padding: 0;
+      margin: 10% 0;
+  }
+
+  .what-we-do-container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5% 50% 5%;
+    align-items: center;
+  }
+
+  .what-we-do-grid-container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 5%;
+    grid-column-gap: 0%;
+    padding: 0 10%;
+    height: 50%;
+  }
+
+  .home-page-about-us{
+    height: 70vh;
+    padding: 0%;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-page-about-us p{
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10%;
+  }
+
+  .home-page-about-us h1{
+    font-size: 1.6em;
+    padding: 0;
+    margin-bottom: 10%;
+    white-space: nowrap;
+  }
+
+  .customer-reviews-container{
+    display: none;
+  }
+  
+
+  .our-partners-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partner-pictures-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    row-gap: 20px;
+    padding: 10%;
+    width: 80vw;
+  }
+
+  .partner-pictures-grid img{
+    width: 45vh;
+    height: 45vh;
+  }
+
+  .our-partners-container h1{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 14%;
+  }
+
+  .our-partners-container p{
+    text-align: center;
+    margin: 4% 0;
+  }
+
+  .our-partners-container button {
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .our-location{
+    text-align: center;
+    padding: 20%;
+  }
+
+  .contact-us{
+    text-align: center;
+    padding: 0;
+  }
+
+  .contact-us-inside-div{
+    padding: 20% 0;
+  }
+
+  .our-location{
+    padding: 20% 0;
+  }
+
+
+  .our-location-div h3::after{
+    width: 100%;
+    left: 0;
+    bottom: -30%;
+  }
+
+  .button-footer-container button{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10%;
+  }
+
+  .footer-copyright{
+    display: flex;
+    width: 100vw;
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

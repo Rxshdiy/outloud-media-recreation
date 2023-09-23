@@ -96,6 +96,7 @@ a{
 .background-first-overlay{
   height: 100vh;
   background-color: #E9EFEF;
+  position: relative;
 }
 
 .scroll-down{

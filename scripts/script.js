@@ -17,3 +17,22 @@ const textLoad = () => {
 
 textLoad();
 setInterval(textLoad, 16000)
+
+
+//  when clicking a button, the button will link to another html page
+
+// Path: contact.html
+
+const contactButton = document.querySelector('.nav-button');
+
+contactButton.addEventListener('click', () => {
+  window.location.href = "contact.html";
+})
+
+// do the same with another button
+
+const contactButton2 = document.querySelector('.footer-button');
+
+contactButton2.addEventListener('click', () => {
+  window.location.href = "contact.html";
+})
