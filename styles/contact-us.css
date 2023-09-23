@@ -1,0 +1,109 @@
+.what-we-do-container1{
+  height: 30vh;
+  flex-direction: column;
+  padding: 3.5% 14% 2.3% 14%;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.what-we-do1 h1{
+  font-size: 1.7em;
+  font-weight: 800;
+  line-height: 70%;
+  margin-top: 5%;
+  margin-bottom: 1px;
+}
+
+.what-we-do1 p{
+  margin-top: 7%;
+  font-family: "Roboto Slab", sans-serif;
+  line-height: 1.8em;
+  font-weight: normal;
+}
+
+.what-we-do-heading1 span{
+  color: #28baba;
+}
+
+.what-we-do-grid-container1{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3%;
+  
+}
+
+.what-we-do1{
+  padding: 10%;
+  border-bottom: 3.5px solid #28baba;
+  display: grid;
+  grid-column: auto;
+  grid-row: 100px 200px 200px;
+  box-shadow: 10px 10px 100px rgb(0, 0, 0, 0.07);
+  
+}
+
+/* text area has the same styling as the input fields */
+
+.contact-us-input-container1 textarea{
+  width: 100%;
+  height: 30%;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 2%;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  resize: none;
+}
+
+.contact-us-input-container1{
+  width: 100vw;
+  height: 135vh;
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.contact-us-input-container1 form{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* input button has no border, background colour is light grey and the height is 100px */
+
+.contact-us-input-container1 button{
+  border: none;
+  background-color: #28baba;
+  height: 60px;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+/* input field is the same height as the button, but has a background color of light grey */
+
+.contact-us-input-container1 input{
+  height: 60px;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+/* 20px margin about the label element */
+
+.contact-us-input-container1 label{
+  margin-top: 30px;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
