@@ -1,0 +1,614 @@
+/* media query for responsive design with a max width of 1200px*/
+
+@media (max-width: 1200px){
+  /* responsive design for about-us.html page */
+  
+  .about-us-container{
+    flex-direction: column;
+    height: 100%;
+    padding: 0 10%;
+  }
+
+  .background-overlay-about-us{
+    height: 50vh;
+  }
+
+  .page-description-top{
+    height: 50vh;
+  }
+
+
+
+  .about-us-container h1{
+    font-size: 3.9em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0;
+  }
+
+  .about-us-container p{
+    color: rgb(222, 219, 219);
+    margin: 4% 0;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+
+  .about-us-container button{
+    font-size: 1.2em;
+    padding: 2.7% 7%;
+    background-color: #28baba;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    margin-top: 2%;
+    transition: 1s all ease;
+    cursor: pointer;
+    border-style: none;
+  }
+
+  .about-us-container button::after{
+    content: "➔";
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  .about-us-container button:hover{
+    background-color: #226d6d;
+  }
+
+  .about-us-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* responsive design for contact-us.html page */
+
+  .contact-us-input-container1{
+    width: 100vw;
+    height: 135vh;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .contact-us-input-container1 form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* input button has no border, background colour is light grey and the height is 100px */
+
+  .contact-us-input-container1 button{
+    border: none;
+    background-color: #28baba;
+    height: 60px;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+
+  /* input field is the same height as the button, but has a background color of light grey */
+
+  .contact-us-input-container1 input{
+    height: 60px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1em;
+    padding-left: 10px;
+  }
+
+  /* 20px margin about the label element */
+
+  .contact-us-input-container1 label{
+    margin-top: 30px;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+
+  /* responsive design for home-page.html */
+
+  .home-page-about-us{
+    flex-direction: column;
+    height: 100%;
+    padding: 0 10%;
+  }
+
+  .home-page-about-us h1{
+    font-size: 3.9em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0;
+  }
+
+  .home-page-about-us p{
+    color: rgb(222, 219, 219);
+    margin: 4% 0;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+
+  .home-page-about-us button{
+    font-size: 1.2em;
+    padding: 2.7% 7%;
+    background-color: #28baba;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    margin-top: 2%;
+    transition: 1s all ease;
+    cursor: pointer;
+    border-style: none;
+  }
+
+  .home-page-about-us button::after{
+    content: "➔";
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  .home-page-about-us button:hover{
+    background-color: #226d6d;
+  }
+
+  .our-partners-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 13%;
+  }
+
+  .partners-heading h1{
+    font-size: 2.5em;
+  }
+
+  .partners-heading p{
+    text-align: center;
+    font-size: 0.9em;
+    padding: 2% 5%;
+  }
+
+  .partners-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .our-partners-container h1{
+    font-size: 3.9em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0;
+  }
+
+  .our-partners-container p{
+    color: rgb(222, 219, 219);
+    margin: 4% 0;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+
+  .our-partners-container button{
+    font-size: 1.2em;
+    padding: 2.7% 7%;
+    background-color: #28baba;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    margin-top: 2%;
+    transition: 1s all ease;
+    cursor: pointer;
+    border-style: none;
+  }
+
+  .our-partners-container button::after{
+    content: "➔";
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  .our-partners-container button:hover{
+    background-color: #226d6d;
+  }
+
+  .our-partners-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* responsive design for what-we-do.html */
+
+
+  .what-we-do1{
+    padding: 10%;
+    border-bottom: 3.5px solid #28baba;
+    display: grid;
+    grid-column: auto;
+    grid-row: 100px 200px 200px;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0, 0.07);
+  }
+
+  /* text area has the same styling as the input fields */
+
+  .contact-us-input-container1 textarea{
+    width: 100%;
+    height: 30%;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 2%;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 400;
+    resize: none;
+  }
+
+  .what-we-do1{
+    padding: 10%;
+    border-bottom: 3.5px solid #28baba;
+    display: grid;
+    grid-column: auto;
+    grid-row: 100px 200px 200px;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0, 0.07);
+  }
+
+  .what-we-do1 h1{
+    font-size: 1.7em;
+    margin: 0 0 3% 0;
+    font-weight: 800;
+    line-height: 120%;
+    margin-top: 5%;
+  }
+
+  .what-we-do1 p{
+    margin-top: 7%;
+    font-family: "Roboto Slab", sans-serif;
+    line-height: 1.8em;
+    font-weight: normal;
+  }
+
+  .what-we-do-heading1 span{
+    color: #28baba;
+  }
+
+
+  .what-we-do1{
+    padding: 10%;
+    border-bottom: 3.5px solid #28baba;
+    display: grid;
+    grid-column: auto;
+    grid-row: 100px 200px 200px;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0, 0.07);
+  }
+
+  .statistics-container{
+    flex-direction: column;
+    height: auto;
+    padding: 10% 10%;
+    row-gap: 0%;
+  }
+
+  .what-we-believe-image image{
+    height: 200px;
+  }
+
+  .statistics-container h1{
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0% 0 20% 0;
+  
+    padding: 0;
+  }
+
+  .get-quote-container button{
+    padding: 5% 10%;
+  }
+
+  .statistics-numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .what-we-believe-in{
+    height: initial;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .everything-we-believe-in p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 1em;
+    line-height: 1.3em;
+    margin-bottom: 6%;
+  }
+
+  .partners-heading h1{
+    font-size: 2em;
+    font-weight: 800;
+    margin-top: 6%;
+    margin-bottom: 4%;
+  }
+
+  .what-we-believe-in h1{
+    font-size: 2em;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .num{
+    font-size: 1em;
+  }
+
+  .statistics-container h2{
+    font-size: 2em;
+  }
+
+  /* text area has the same styling as the input fields */
+
+  .contact-us-input-container1 textarea{
+    width: 100%;
+    height: 30%;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 2%;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 400;
+    resize: none;
+  }
+
+  .what-we-do1{
+    padding: 10%;
+    border-bottom: 3.5px solid #28baba;
+    display: grid;
+    grid-column: auto;
+    grid-row: 100px 200px 200px;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0, 0.07);
+  }
+
+
+
+  .what-we-do1 h1{
+    font-size: 1.7em;
+    margin: 0 0 3% 0;
+    font-weight: 800;
+    line-height: 120%;
+    margin-top: 5%;
+  }
+
+  .what-we-do1 p{
+    margin-top: 7%;
+    font-family: "Roboto Slab", sans-serif;
+    line-height: 1.8em;
+    font-weight: normal;
+  }
+
+  .what-we-do-container1{
+    flex-direction: column;
+    row-gap: 5%;
+    height: auto;
+    padding: 10% 10%;
+  }
+
+  .what-we-do-grid-container1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .what-we-do-heading1 span{
+    color: #28baba;
+  }
+
+
+  .what-we-do1{
+    padding: 10%;
+    border-bottom: 3.5px solid #28baba;
+    display: grid;
+    grid-column: auto;
+    grid-row: 100px 200px 200px;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0, 0.07);
+  }
+
+  /* responsive design for case-studies.html */
+
+  .case-studies-container{
+    flex-direction: column;
+    height: 100%;
+    padding: 0 10%;
+  }
+
+  .case-studies-container h1{
+    font-size: 3.9em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0;
+  }
+
+  .case-studies-container p{
+    color: rgb(222, 219, 219);
+    margin: 4% 0;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+
+  .case-studies-container button{
+    font-size: 1.2em;
+    padding: 2.7% 7%;
+    background-color: #28baba;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    margin-top: 2%;
+    transition: 1s all ease;
+    cursor: pointer;
+    border-style: none;
+  }
+
+  .case-studies-container button::after{
+    content: "➔";
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  .case-studies-container button:hover{
+    background-color: #226d6d;
+  }
+
+  .case-studies-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* responsive design for our-team.html */
+
+  .our-team-container{
+    flex-direction: column;
+    height: 100%;
+    padding: 0 10%;
+  }
+
+  .our-team-container h1{
+    font-size: 3.9em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0;
+  }
+
+  .our-team-container p{
+    color: rgb(222, 219, 219);
+    margin: 4% 0;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+
+  .our-team-container button{
+    font-size: 1.2em;
+    padding: 2.7% 7%;
+    background-color: #28baba;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    margin-top: 2%;
+    transition: 1s all ease;
+    cursor: pointer;
+    border-style: none;
+  }
+
+  .our-team-container button::after{
+    content: "➔";
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  .our-team-container button:hover{
+    background-color: #226d6d;
+  }
+
+  .our-team-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* responsive design for partners.html */
+
+  .partners-container{
+    flex-direction: column;
+    height: 100%;
+    padding: 0 10%;
+  }
+
+  .partners-container h1{
+    font-size: 3.9em;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0;
+  }
+
+  .partners-container p{
+    color: rgb(222, 219, 219);
+    margin: 4% 0;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+
+  .partners-container button{
+    font-size: 1.2em;
+    padding: 2.7% 7%;
+    background-color: #28baba;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    margin-top: 2%;
+    transition: 1s all ease;
+    cursor: pointer;
+    border-style: none;
+  }
+
+  .partners-container button::after{
+    content: "➔";
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  .partners-container button:hover{
+    background-color: #226d6d;
+  }
+
+  .partners-container img{
+    width: 100%;
+    height: 100%;
+  }
+
+}
